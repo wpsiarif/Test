@@ -1,0 +1,132 @@
+html, body {
+    font-size: 100%;
+    font-family: 'Droid Sans',sans-serif;
+	line-height: 1.42857;
+	color: rgb(51, 51, 51);
+}
+
+
+
+.map-grids {
+    padding: 3em 2em;
+    border: 1px solid rgb(221, 221, 221);
+}
+.map-grids h3 {
+    color: rgb(25, 24, 24);
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-bottom: 0.8em;
+    text-transform: uppercase;
+	font-family: 'Poppins',sans-serif;
+	/*margin: 0px;
+	line-height: 1.1;*/
+}
+.book-form {
+    margin: 1.17em 0px;
+}
+
+.phone_email, .phone_email1 {
+    width: 48.5%;/*width barate hole ekhane*/
+    margin-bottom: 1.5em;
+}
+
+.phone_email {
+    float: left;
+}
+
+
+.agileits-login label {
+    font-size: 0.9em;
+    color: rgb(25, 24, 24);
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 6px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.book-form .form-text, .book_date, .section_room {
+    position: relative;
+}
+
+.book-form i {
+    position: absolute;
+    color: rgb(255, 60, 65);
+    font-size: 1em;
+   top: 0.8em;
+	left: 1em;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.book-form input[type="text"], .book-form input[type="email"], select#country, select#country1 {
+    width: 100%;
+    color: rgb(41, 39, 39);
+    font-size: 0.9em;
+    padding: 10px 10px 10px 40px;
+    outline: medium none;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    border: 1px solid rgb(222, 222, 222);
+}
+
+.phone_email.phone_email1 {
+    float: right;
+}
+
+.span1_of_1 {
+    list-style: none outside none;
+    width: 100%;
+}
+.span1_of_1:nth-child(2) {
+    margin: 1em 0px;
+}
+
+.wthree-text {
+    margin-top: 0.5em;
+    position: relative;
+}
+.wthree-text h6 {
+    text-transform: uppercase;
+    font-size: 1em;
+    color: rgb(255, 60, 65);
+    margin: 20px 0px 10px;
+}
+.wthree-text ul li {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+input.checkbox {
+    background: none repeat scroll 0% 0% rgb(51, 51, 51);
+    cursor: pointer;
+    width: 1.2em;
+    height: 1.2em;
+    display: inline-block;
+    margin: 0px 5px 0px 0px;
+    vertical-align: text-bottom;
+}
+
+
+
+
+.book-form input[type="submit"] {
+    text-transform: uppercase;
+    background: none repeat scroll 0% 0% rgb(255, 60, 65);
+    color: rgb(255, 255, 255);
+    padding: 0.8em 2em;
+    border: medium none;
+    font-size: 1em;
+    margin-top: 1em;
+    outline: medium none;
+    transition: all 0.5s ease 0s;
+}
+
+
